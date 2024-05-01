@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 2em auto;
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile h2 {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+}
+
+.follow-info {
+    margin-top: 1em;
+}
+
+.follow-info p {
+    margin: 0.5em 0;
+}
+
+.dweets {
+    list-style: none;
+    padding: 0;
+}
+
+.dweet {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
